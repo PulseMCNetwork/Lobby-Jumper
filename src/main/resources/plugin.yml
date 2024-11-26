@@ -1,0 +1,4 @@
+name: lobby-jumper
+author: Mike
+version: '${project.version}'
+main: br.com.pulsemc.minecraft.lobbyjumper.Main
