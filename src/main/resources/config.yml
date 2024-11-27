@@ -1,0 +1,6 @@
+slimedash:
+  y: 1
+  multiply: 2
+
+trampoline:
+  y: 1.5
