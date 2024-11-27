@@ -11,8 +11,8 @@ public class SlimeDashListener implements Listener {
     public void onPlayerMove(PlayerMoveEvent event) {
         if (event.getPlayer().getLocation().subtract(0,1,0).getBlock().getType() == Material.SLIME_BLOCK ) {
             Vector direction = event.getPlayer().getEyeLocation().getDirection();
-            direction.setY(2);
-            direction.multiply(1);
+            direction.setY(1);
+            direction.multiply(2);
             event.getPlayer().setVelocity(direction);
         }
 
